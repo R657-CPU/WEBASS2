@@ -1,0 +1,89 @@
+/* General Styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container Styling */
+.container {
+    width: 50%;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Styling */
+h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #333;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, textarea, select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+input:focus, textarea:focus, select:focus {
+    border-color: #4CAF50;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Success Message Styling */
+#successMessage {
+    text-align: center;
+    margin-top: 30px;
+}
+
+#successMessage h2 {
+    color: #28a745;
+    font-size: 24px;
+}
+
+#successMessage p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Hidden class for success message */
+.hidden {
+    display: none;
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    .container {
+        width: 80%;
+    }
+}
